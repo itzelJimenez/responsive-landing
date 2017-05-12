@@ -5,44 +5,71 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Lora|Pacifico|Poppins" rel="stylesheet">
 	</head>
 	<body>
 		<header>
-			<nav>
-				<button>HOME</button>
-				<button>ABOUT</button>
-				<button>WATCH</button>
-				<button>CONTACT</button>
+			<nav class="container">
+				<div class="cont-log"><img src="img/logo.png"></div>
+				<button class="button">HOME</button>
+				<button class="button">ABOUT</button>
+				<button class="button">WATCH</button>
+				<button class="button">CONTACT</button>
 			</nav>
 		</header>
-		<section>
-			<h1>DANCE THE SPORT TEAM</h1>
+		<section class="home container">
+			<h1 class="title">Sports Dance Team</h1>
 		</section>
-		<section>
-			<h2>¿WHAT IS DANCESPORT?</h2>
-			<div>
-				<img src="img/latinos.jpg">
-				<p></p>
+		<section class="container container-content" id="about">
+			<div class="container">
+				<h2>¿what is dancesport?</h2>
 			</div>
-			<div>
-				<p></p>
+			<div class="container cont-text-img">
+				<img src="img/latinos.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="container cont-text-img">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<img src="img/standard.jpg">
 			</div>
 		</section>
-		<section>
-			<h2>¿DO YOU WANT TO WATCH A GREAT DANCE?</h2>
-			<div>
-				<iframe src="https://www.youtube.com/watch?v=-s6f1RmmtKk"></iframe>
+		<section class="container container-content bg-black" id="watch">
+			<div class="container">
+				<h2>¿Are you ready for watch us?</h2>
 			</div>
+			<div class="container">
+				<iframe src="https://www.youtube.com/embed/-s6f1RmmtKk" frameborder="0" allowfullscreen></iframe>
+			</div><br>
+			<div class="container">
+
+				<p>If you wat to see more about this sport go to next link <a href="https://www.worlddancesport.org/">Click me</a></p>
+			</div><br>
 		</section>
-		<section>
-			<h2></h2>
-			<form>
-				<input type="" name="">
-				<input type="" name="">
-				<textarea></textarea>
+		<section class="container container-content mg-bt">
+			<div>
+				<h2>Contact us</h2>
+			</div>
+			<form class="container-content container">
+				<input type="text" placeholder="Name" class="input-style">
+				<input type="text" placeholder="Email" class="input-style">
+				<textarea placeholder="Write your comment here." class="input-style"></textarea>
+				<input type="submit" id="submit" class="button">
 			</form>
 		</section>
-
+		<footer class="bg-black container container-content">
+			<div>
+				<p>Copyright ©</p>
+			</div>
+		</footer>
 	</body>
 </html>
