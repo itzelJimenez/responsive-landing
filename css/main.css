@@ -7,15 +7,20 @@ body{
 	height: 100%;
 	font-family: 'Lora', serif;
 }
+a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
 .title{
 	font-family: 'Pacifico', cursive;
 	font-weight: 600;
-	font-size: 60px;
+	font-size: 8vw;
 	color: #e8e8e7;
 }
 h2{
 	font-family: 'Poppins', sans-serif;
-	font-size: 40px;
+	font-size: 3.5vw;
 	text-transform: capitalize;
 }
 header{
@@ -38,10 +43,14 @@ button{
 nav>div>img{
 	width: 10%;
 }
+.hamburguesa{
+	display: none;
+}
 .home{
 	align-items: center;
 	background-image: url(../img/portada.jpg);
 	background-size: cover;
+	background-position: center;
 	height: 550px;
 	justify-content: center;
 	width: 100%;
@@ -63,9 +72,10 @@ nav>div>img{
 .cont-text-img>p{
 	width: 40%;
 	text-align: justify;
+	font-size: 1.5vw;
 }
 iframe{
-	width: 850px; 
+	width: 100%; 
 	height: 300px; 
 }
 form{
@@ -76,7 +86,7 @@ form{
 	border-bottom: solid 1px black;
 }
 input,textarea{
-	font-size: 15px;
+	font-size: 2vw;
 	height: 40px;
 	margin-top: 2%;
 	outline-style: none;
@@ -95,4 +105,33 @@ input,textarea{
 }
 .mg-bt{
 	margin-bottom: 5%;
+}
+.cont-video{
+	width: 80%;
+}
+@media (max-width: 480px){
+	#about,nav>button{
+		display: none;
+	}
+	.home{
+		height: 300px;
+		width: 100%;
+	}
+	.title{
+		font-size: 2em;
+	}
+	iframe{
+		height: 250px;
+	}
+	h2{
+		font-size: 1.1em;
+	}
+	input,textarea{
+		font-size: .7em;
+	}
+	.hamburguesa{
+		display: block;
+		margin-right: 5%;
+		font-size: 4vw;
+	}
 }
