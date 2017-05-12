@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Lora', serif;
+}
+.title{
+	font-family: 'Pacifico', cursive;
+	font-weight: 600;
+	font-size: 60px;
+	color: #e8e8e7;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+header{
+	background-color: #69140f;
+	position: fixed;
+	width: 100%;
+	z-index: 7;
+}
+.container{
+	display: flex;
+}
+nav{
+	justify-content: space-around;
+	align-items: center;
+}
+button{
+	width: 8%;
+	height: 40px;
+}
+nav>div>img{
+	width: 10%;
+}
+.home{
+	align-items: center;
+	background-image: url(../img/portada.jpg);
+	background-size: cover;
+	height: 550px;
+	justify-content: center;
+	width: 100%;
+}
+.container-content{
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.cont-text-img{
+	justify-content: space-around;
+	align-items: center;
+	width: 95%;
+	margin-bottom: 1.5%;
+}
+.cont-text-img>img{
+	width: 35%;
+}
+.cont-text-img>p{
+	width: 40%;
+	text-align: justify;
+}
+iframe{
+	width: 850px; 
+	height: 300px; 
+}
+form{
+	width: 60%;
+}
+.input-style{
+	border: none;
+	border-bottom: solid 1px black;
+}
+input,textarea{
+	font-size: 15px;
+	height: 40px;
+	margin-top: 2%;
+	outline-style: none;
+	width: 100%;
+}
+.button{
+	background-color: #69140f;
+	color: #fff;
+	font-family: 'Poppins', cursive;
+	font-weight: 700;
+	cursor: pointer;
+}
+.bg-black{
+	background-color: #160812;
+	color: #fff;
+}
+.mg-bt{
+	margin-bottom: 5%;
+}
