@@ -3,21 +3,23 @@
 	<head>
 		<title>DANCE THE SPORT TEAM</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Lora|Pacifico|Poppins" rel="stylesheet">
+		<script src="https://use.fontawesome.com/75919d6994.js"></script>
 	</head>
 	<body>
 		<header>
 			<nav class="container">
 				<div class="cont-log"><img src="img/logo.png"></div>
-				<button class="button">HOME</button>
-				<button class="button">ABOUT</button>
-				<button class="button">WATCH</button>
-				<button class="button">CONTACT</button>
+				<button class="button"><a href="#home">HOME</a></button>
+				<button class="button"><a href="#about">ABOUT</a></button>
+				<button class="button"><a href="#watch">WATCH</a></button>
+				<button class="button"><a href="#contact">CONTACT</a></button>
+				<a href="#" class="hamburguesa"><i class="fa fa-bars" aria-hidden="true"></i></a>
 			</nav>
 		</header>
-		<section class="home container">
+		<section class="home container" id="home">
 			<h1 class="title">Sports Dance Team</h1>
 		</section>
 		<section class="container container-content" id="about">
@@ -26,20 +28,12 @@
 			</div>
 			<div class="container cont-text-img">
 				<img src="img/latinos.jpg">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>The observation dates back to 1927! It was made by Victor Silvester, an Englishman, musician, dancer, and a pioneer in giving the definite shape to what was to become programme for the match of skills and style on the parquet.
+				In 1929, British dance teachers defined the norms of an “English" style for the most popular ballroom dances. Maybe for the lack of alternatives, "English" soon prevailed on the continent as well and was eventually adopted as the “International Style” everywhere.</p>
 			</div>
 			<div class="container cont-text-img">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>The aesthetic appeal of a sport can make for the fascination that induces someone to participate. And it is certainly one of the qualities drawing a spectator to watch.
+				For those looking on, a sporting performance does not solely impress for its purpose or effectivity, it astonishes even more through the skill and the style with which it is delivered.</p>
 				<img src="img/standard.jpg">
 			</div>
 		</section>
@@ -47,7 +41,7 @@
 			<div class="container">
 				<h2>¿Are you ready for watch us?</h2>
 			</div>
-			<div class="container">
+			<div class="container cont-video">
 				<iframe src="https://www.youtube.com/embed/-s6f1RmmtKk" frameborder="0" allowfullscreen></iframe>
 			</div><br>
 			<div class="container">
@@ -55,7 +49,7 @@
 				<p>If you wat to see more about this sport go to next link <a href="https://www.worlddancesport.org/">Click me</a></p>
 			</div><br>
 		</section>
-		<section class="container container-content mg-bt">
+		<section class="container container-content mg-bt" id="contact">
 			<div>
 				<h2>Contact us</h2>
 			</div>
